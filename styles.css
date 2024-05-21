@@ -24,7 +24,7 @@ body{
     width: 500px;
     height: 500px;
     position: absolute;
-    margin-left: 830px;
+    margin-left: 510px;
     border-radius: 20px;
 }
 .area{
@@ -100,3 +100,15 @@ body{
     width: 100px;
     height: 25px;
  }
+ audio{
+   height: 20px;
+   width: 200px;
+   position: absolute;
+   margin-left: 660px;
+   margin-top: 12px;
+   
+ }
+
+audio::-webkit-media-controls-panel{
+   background-color: rgb(2, 96, 40);
+}
