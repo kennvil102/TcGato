@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/TcGato/img/halo-infinite-master-chief-cartoon-3zxkmw0cnn6wgdes.jpg);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+.contenedor{
+   margin-top: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+}
+.contienegato{
+    background-color: rgb(74, 175, 82);
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    margin-left: 830px;
+    border-radius: 20px;
+}
+.area{
+   background-color: rgb(4, 187, 126);
+   background-image: url(https://i.gifer.com/WiYl.gif);
+   background-repeat: no-repeat;
+   background-size: cover;
+   backdrop-filter: blur(20px);
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 40px;
+   width: 90%;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows:  1fr 1fr 1fr;
+   height: 80%;
+   justify-content: stretch;
+   font-size: 5pc;
+    
+}
+.cuadrado{
+    color: rgb(5, 199, 38);
+    border: 1px solid;
+    border-radius: 4px;
+    transition-duration: 2s;
+    text-align: center;
+    font-family: monospace;
+ }
+ .cuadrado:hover{
+    color: rgb(216, 127, 12);
+ }
+ .barra{
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2em;
+    margin-top: 1em;
+ }
+ .spanmuestra{
+    background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTh3dWJqaXN6NWo1YmlvMmZkeTRpOXBsNncwMm1haGN6ZnZ0ODYzNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/b4ab9TBk9Ornvrt9W8/giphy.gif);
+    background-position: center;
+    margin-top: 25px;
+    margin-bottom: 29px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+ }
+ h3{
+    color: rgb(90, 236, 4);
+    font-family: monospace;
+    font-size: 39px;
+ }
+ .varesetear{
+    display: flex;
+    justify-content: center;
+    padding-top: 520px;
+    padding-left: 5px;
+ }
+ .gane{
+    background-color: rgb(20, 18, 29);
+    border-radius: 20px;
+    width: 1200px;
+    height: 24px;
+    font-family: monospace;
+ }
+ #ganadasX,#ganador,#ganadasY,#empates{
+    font-family: monospace;
+ }
+ .estilbut{
+    background-color: rgb(33, 165, 21);
+    border-radius: 20px;
+    width: 100px;
+    height: 25px;
+ }
