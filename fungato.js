@@ -1,4 +1,4 @@
-const buttons = document.querySelectorAll(".cuadrado");
+const cuadraditos= document.querySelectorAll(".cuadrado");
 let turno = true;
 let enjuego= true;
 const reiniciar = document.querySelector("#reiniciar");
