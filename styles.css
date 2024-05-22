@@ -84,13 +84,6 @@ body{
     padding-top: 520px;
     padding-left: 5px;
  }
- .gane{
-    background-color: rgb(20, 18, 29);
-    border-radius: 20px;
-    width: 1200px;
-    height: 24px;
-    font-family: monospace;
- }
  #ganadasX,#ganador,#ganadasY,#empates{
     font-family: monospace;
  }
