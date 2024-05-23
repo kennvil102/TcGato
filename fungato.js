@@ -5,7 +5,7 @@ const reiniciar = document.querySelector("#reiniciar");
 let ganadasx = 0;
 let ganadas0 = 0;
 let empates = 0;
-
+/* actualiza las variables ganx gan0 y empates llamandolas y aplicandole el textcontent*/
 function update() {
     document.querySelector("#ganadasX").textContent = "Juegos ganados de X: " + ganadasx;
     document.querySelector("#ganadasY").textContent = "Juegos ganados de O: " + ganadas0;
@@ -28,10 +28,10 @@ function jugarTurnoDeMaquina() {
     // Jugar en la celda aleatoria
     buttons[celdaAleatoria].textContent = "O";
 
-    // Actualizar el turno y verificar si hay un ganador
+    // cambia el turno y ve si hay un ganador
     turno = !turno;
     if (ganador() !== -1) {
-        // Mostrar el mensaje de ganador o empate
+        // muesta el resultado
         mostrarResultado();
     }
 }
@@ -46,7 +46,7 @@ for (let i = 0; i < buttons.length; i++) {
                 ganadasx++;
                 update();
             } else if (ganador() === -1) {
-                document.querySelector("#winner").textContent = alert("Empate");
+                document.querySelector("#winner").textContent = "Empate";
                 empates++;
                 update();
             } else {
