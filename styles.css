@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(/TcGato/img/halo-infinite-master-chief-cartoon-3zxkmw0cnn6wgdes.jpg);
+    background-image: url(/img/halo-infinite-master-chief-cartoon-3zxkmw0cnn6wgdes.jpg);
     background-position-x: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -54,7 +54,10 @@ body{
     font-family: monospace;
  }
  .cuadrado:hover{
-    color: rgb(216, 127, 12);
+   background-image: url(https://i.gifer.com/VBYM.gif);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size:cover;
  }
  .barra{
     margin-left: auto;
@@ -63,15 +66,15 @@ body{
     margin-top: 1em;
  }
  .spanmuestra{
-    background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTh3dWJqaXN6NWo1YmlvMmZkeTRpOXBsNncwMm1haGN6ZnZ0ODYzNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/b4ab9TBk9Ornvrt9W8/giphy.gif);
+    background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExem1xOG16eXptNDFmMmJ0N3k3NTFkczN1dHZjd2tkdzc4Mmc2czAycyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lqdmhxGZ4lv9qltfuk/giphy.gif);
     background-position: center;
     margin-top: 25px;
     margin-bottom: 29px;
-    color: rgb(255, 255, 255);
+    color: rgb(11, 234, 48);
     text-align: center;
     width: 300px;
     height: 100px;
-    border-radius: 20px;
+    border-radius: 10px;
  }
  h3{
     color: rgb(90, 236, 4);
